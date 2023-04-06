@@ -2,6 +2,9 @@ import { useState } from 'preact/hooks'
 import preactLogo from './assets/preact.svg'
 import viteLogo from '/vite.svg'
 import './app.css'
+import {t} from "@lingui/macro";
+
+
 
 export function App() {
   const [count, setCount] = useState(0)
@@ -9,6 +12,7 @@ export function App() {
   return (
     <>
       <div>
+        {t`Ola!`}
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} class="logo" alt="Vite logo" />
         </a>

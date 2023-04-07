@@ -9,4 +9,4 @@ msgstr ""
 
 #: src/app.jsx:15
 msgid "Ola!"
-msgstr ""
+msgstr "ሰላም!"
